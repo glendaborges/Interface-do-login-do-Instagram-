@@ -123,21 +123,20 @@ height: 50rem;
     background-image: url(img/apple-button.png);
 }
 
-.app-download:nth-child(2){
+.app-download:nth-child(2) {
     background-image: url(img/googleplay-button.png);
 }
 
-
 /* media queries */
 
-@media (max-widht: 1024px){
-    .instagram-wrapper{
+
+@media (max-width: 1024px) {
+    .instagram-wrapper {
         width: 90%;
     }
 }
 
-@media (max-widht: 650px) {
-    
+@media (max-width: 650px) {
     body {
         background-color: white;
     }
@@ -150,12 +149,12 @@ height: 50rem;
         display: none;
     }
 
-    .instagram-continue{
+    .instagram-continue {
         width: 100%;
     }
 
     .group {
         border: 1px solid transparent;
+
     }
 }
-    
